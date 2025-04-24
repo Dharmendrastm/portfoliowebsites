@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Cybersecurity Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Share Tech Mono', monospace;
+            background-color: #0f0f0f;
+            color: #00ff88;
+        }
+
+        header {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00ff88;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #00ff88;
+            text-shadow: 0 0 10px #00ff88;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #00ff88;
+        }
+
+        nav a {
+            color: #00ff88;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2, h3 {
+            color: #00ffaa;
+            text-shadow: 0 0 5px #00ffaa;
+        }
+
+        p, ul {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #111;
+            color: #00ff88;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #00ff88;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="Images/hamberger.svg" alt="">
+        </button>
+        <div class="mobile-nav">
+            <button class="times"><img src="Images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="Images/Dharmendra_resume (2).pdf" download="Dharmendra_resume">Resume</a></li>
+                <li><a href="#project">Project</a></li>
+            </ul>
+        </div>
+    <header>
+        <h1>BLOG</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#blog">Blog</a>
+        <a href="#">Tools</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>The Importance of Secure Coding Practices in Cybersecurity</h2>
+
+        <h3>Introduction</h3>
+        <p>The digital landscape is growing rapidly, and with this expansion comes an increasing need for secure coding practices. Developers play a critical role in safeguarding against cyber threats, as the code they write can either expose systems to risk or ensure their resilience. Insecure code can result in severe breaches, data losses, and financial damage. Implementing secure coding practices from the outset is key to building secure applications.</p>
+
+        <h3>Writing Secure Code</h3>
+        <p>Developers must adhere to established best practices to create secure code. Here are some essential guidelines for writing secure code:</p>
+
+        <h4>Input Validation</h4>
+        <p>Always validate user inputs to avoid malicious data injection. Proper input sanitization helps defend against attacks like SQL injection and XSS.</p>
+
+        <h4>Least Privilege</h4>
+        <p>Ensure users and processes have only the minimum permissions necessary to perform their functions, reducing the potential impact of security breaches.</p>
+
+        <h4>Error Handling and Logging</h4>
+        <p>Handle errors properly to prevent exposing sensitive data. Also, ensure logs are maintained securely without revealing unnecessary information.</p>
+
+        <h4>Code Reviews and Security Audits</h4>
+        <p>Regular code reviews and security audits help catch security flaws early. Utilize both automated tools and human oversight to ensure thorough analysis.</p>
+
+        <h3>Common Vulnerabilities to Avoid</h3>
+
+        <h4>SQL Injection</h4>
+        <p>Use parameterized queries and prepared statements to prevent attackers from manipulating SQL commands.</p>
+
+        <h4>Cross-Site Scripting (XSS)</h4>
+        <p>Sanitize and encode all user inputs before displaying them, protecting against malicious scripts.</p>
+
+        <h4>Cross-Site Request Forgery (CSRF)</h4>
+        <p>Employ anti-CSRF tokens to ensure that actions initiated by users are legitimate and not executed through deception.</p>
+
+        <h4>Broken Authentication</h4>
+        <p>Use Multi-Factor Authentication (MFA), hash passwords securely (e.g., using bcrypt), and manage session tokens with care.</p>
+
+        <h3>Secure Coding Standards</h3>
+
+        <h4>OWASP Top Ten</h4>
+        <p>Follow the OWASP Top Ten guidelines to stay protected against the most critical web security risks.</p>
+
+        <h4>Secure Development Lifecycle (SDLC)</h4>
+        <p>Integrate security at every phase of the development process to identify and resolve vulnerabilities early.</p>
+    </div>
+
+    <footer>
+        <img class="footer-logo" src="Images/logo-2.svg" alt="Logo">
+        <div class="footer-socials">
+            <a href="https://github.com/Dharmendrastm"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100073487926573"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/DHARMEN75705829"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/dharmendra-kumar-432aa0291/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/dharmendra_stm/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+            Copyright 2024 © Dharmendrstm
+        </div>
+    </footer>
+
+</body>
+</html>

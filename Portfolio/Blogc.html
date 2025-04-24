@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Cybersecurity Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Share Tech Mono', monospace;
+            background-color: #0f0f0f;
+            color: #00ff88;
+        }
+
+        header {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00ff88;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #00ff88;
+            text-shadow: 0 0 10px #00ff88;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #00ff88;
+        }
+
+        nav a {
+            color: #00ff88;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2, h3, h4 {
+            color: #00ffaa;
+            text-shadow: 0 0 5px #00ffaa;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #111;
+            color: #00ff88;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #00ff88;
+        }
+
+        .footer-logo {
+            max-width: 150px;
+        }
+
+        .footer-socials a {
+            color: #00ff88;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: 0.3s;
+        }
+
+        .footer-socials a:hover {
+            color: #fff;
+        }
+
+        .copyright {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="Images/hamberger.svg" alt="">
+        </button>
+        <div class="mobile-nav">
+            <button class="times"><img src="Images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="Images/Dharmendra_resume (2).pdf" download="Dharmendra_resume">Resume</a></li>
+                <li><a href="#project">Project</a></li>
+            </ul>
+        </div>
+        <header>
+            <h1>BLOG</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#blog">Blog</a>
+            <a href="#">Tools</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="container">
+            <h2>A Beginner’s Guide to Ethical Hacking and Penetration Testing</h2>
+
+            <h3>Introduction</h3>
+            <p>Ethical hacking, or penetration testing, involves simulating cyberattacks on systems, networks, or applications to identify vulnerabilities before malicious hackers can exploit them. It's an essential part of the cybersecurity landscape and helps organizations protect their digital assets.</p>
+
+            <h3>Fundamentals of Ethical Hacking</h3>
+            <p>Ethical hackers, or “white hat hackers,” use the same techniques as black hat hackers but do so with permission and with the goal of improving security. Ethical hackers need to understand the following areas:</p>
+
+            <h4>Reconnaissance</h4>
+            <p>Gathering info about targets (domains, IPs, etc.) using tools like Nmap and OSINT platforms.</p>
+
+            <h4>Scanning and Enumeration</h4>
+            <p>Scanning for open ports and vulnerabilities with tools like Nessus and OpenVAS.</p>
+
+            <h4>Exploitation</h4>
+            <p>Using Metasploit and other methods to exploit found weaknesses and test access control.</p>
+
+            <h4>Post-Exploitation</h4>
+            <p>Understanding access depth, collecting data, and checking persistence like backdoor setup.</p>
+
+            <h4>Reporting</h4>
+            <p>Creating clear reports of findings, steps taken, and recommended fixes for security teams.</p>
+
+            <h3>Tools Used in Penetration Testing</h3>
+            <ul>
+                <li><strong>Metasploit:</strong> Exploitation framework for testing vulnerabilities</li>
+                <li><strong>Burp Suite:</strong> Web application security testing platform</li>
+                <li><strong>Wireshark:</strong> Network protocol analyzer</li>
+                <li><strong>Nmap:</strong> Network scanner for mapping and recon</li>
+                <li><strong>John the Ripper:</strong> Password cracking tool</li>
+            </ul>
+
+            <h3>How to Get Started in Ethical Hacking</h3>
+
+            <h4>Learn Networking and OS</h4>
+            <p>Understand TCP/IP, DNS, HTTP, Linux, and Windows internals. Essential for any hacker toolkit.</p>
+
+            <h4>Understand Common Vulnerabilities</h4>
+            <p>Study threats like SQLi, XSS, buffer overflows. Use OWASP as your guide.</p>
+
+            <h4>Set Up a Lab</h4>
+            <p>Build a home lab with VMs or use platforms like TryHackMe and Hack The Box to practice legally.</p>
+
+            <h4>Certifications</h4>
+            <p>Consider CEH, OSCP, CompTIA Security+ to validate your skills and boost credibility.</p>
+
+            <h3>Conclusion</h3>
+            <p>Ethical hacking is a hands-on, rewarding field that requires curiosity, continuous learning, and discipline. With the right mindset and resources, anyone can start their journey in penetration testing and contribute to a safer digital world.</p>
+        </div>
+
+        <footer>
+            <img class="footer-logo" src="Images/logo-2.svg" alt="Logo">
+            <div class="footer-socials">
+                <a href="https://github.com/Dharmendrastm"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100073487926573"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/DHARMEN75705829"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/dharmendra-kumar-432aa0291/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/dharmendra_stm/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                Copyright 2024 © Dharmendrstm
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
