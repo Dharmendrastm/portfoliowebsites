@@ -210,12 +210,12 @@ section.services .card-wrapper .card:hover {
     background: var(--dark);
 }
 
-section.services .card-wrapper .card img {
+ssection.services .card-wrapper .card img {
     position: absolute;
     top: -3.2rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 250px;            
+    width: 205px;            
     height: 125px;              
     object-fit: cover;
     border-radius: 0.5rem;     
@@ -225,9 +225,10 @@ section.services .card-wrapper .card img {
     z-index: 2;
 }
 
+
 section.services .card-wrapper .card h2 {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.4;
     color: var(--dark);
     margin-bottom: 0.8rem;
     transition: color 0.3s ease;
