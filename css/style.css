@@ -3,6 +3,7 @@
     --primary:#3DCFD3;
     --dark:#070702ed;
     --pure:#FFFFFF;
+    --pure:#ffffff;
     --ternary:#898989;
     --light:#F2F2F2;
     --secondary:#070606;
@@ -248,7 +249,7 @@ section.services .card-wrapper .card:hover p {
 /*Freelancer*/
 section.freelancer {
     text-align: center;
-    background: var(--dark);
+    background: var(--dark); /* Uses your custom dark color */
     color: var(--pure);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 90%, 70% 85%, 50% 95%, 30% 85%, 15% 90%, 0 85%);
     padding-bottom: 14rem;
