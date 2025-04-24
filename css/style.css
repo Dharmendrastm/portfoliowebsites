@@ -246,13 +246,14 @@ section.services .card-wrapper .card:hover p {
 }
 
 /*Freelancer*/
-section.freelancer{
+section.freelancer {
     text-align: center;
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/Images/camera.png);
-    color:var(--pure);
+    background: var(--dark);
+    color: var(--pure);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 90%, 70% 85%, 50% 95%, 30% 85%, 15% 90%, 0 85%);
-    padding-bottom:14rem;
+    padding-bottom: 14rem;
 }
+
 section.freelancer h1{
     font-size:3rem;
     margin-bottom:0.5rem;
