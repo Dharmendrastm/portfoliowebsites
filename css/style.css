@@ -212,16 +212,16 @@ section.services .card-wrapper .card:hover {
 
 section.services .card-wrapper .card img {
     position: absolute;
-    top: -3.5rem;
+    top: -3.2rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px;
-    height: 80px;
+    width: 250px;            
+    height: 125px;              
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 0.5rem;     
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     background: var(--pure);
-    padding: 0.5rem;
+    padding: 0rem;
     z-index: 2;
 }
 
